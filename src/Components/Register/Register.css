@@ -1,0 +1,40 @@
+.backPic{
+	position: absolute;
+	background-color: black;
+	opacity: 0.8;
+	z-index: -3;
+	width: 100vw;
+	height: 90.85vh;
+}
+
+.mainForm{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	background-color: white;
+	/*color: white;*/
+	left: 30%;
+	width: 40%;
+	padding-top: 5px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	padding-right: 10px;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 10px;
+}
+#lastLine{
+	font-size: 15px;
+}
+
+.inputTags:focus{
+	color: white;
+	background-color: black;
+
+}
+@media screen and (max-width: 500px){
+	.mainForm{
+		width: 70%;
+		left: 15%;
+	}
+
+}
